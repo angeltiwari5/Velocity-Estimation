@@ -1,0 +1,16 @@
+The short explanation is, sparse techniques only need to process some pixels from the whole image, 
+dense techniques process all the pixels. Dense techniques are slower but can be more accurate, 
+but in my experience Lucas-Kanade accuracy might be enough for real-time applications
+
+Knowing the acquisition frequency, you must now find the distance between the successive positions of the marker. 
+To find this distance, I suggest you estimate the pose of the marker for each image. Loosely speaking, the "pose" is the 
+transformation matrix expressing the coordinates of an object relative to a camera. 
+
+
+have an image processing project, clearly the title reveals what it is.
+Assume I have a camera on top of the one of the traffic lights beside a four way in a heavy crowded city.
+ The project should get the recorded video from that camera. Identify the cars on the scene and track their movements.
+for the tracking part I believe Lucas Kanade with pyramids or even Lucas Kanade Tomasi would be sufficient.
+But before tracking I should Identify the cars coming into the scene. I wonder how I can do that. 
+I mean how I can distinguish between people/trees/building/... and cars.
+what should I do for identifying ? I want you to be kind enough with me and share your ideas. 

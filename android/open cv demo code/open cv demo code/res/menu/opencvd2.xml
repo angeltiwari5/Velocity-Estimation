@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_info" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_info"/>
+    <item android:id="@+id/action_rgbpreview" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_rgbpreview"/>
+    <item android:id="@+id/action_cannyedges" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_cannyedges"/>
+    <item android:id="@+id/action_houghcircles" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_houghcircles"/>
+    <item android:id="@+id/action_houghlines" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_houghlines"/>
+    <item android:id="@+id/action_colourcontour" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_colourcontour"/>
+    <item android:id="@+id/action_colourquad" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_colourquad"/>
+    <item android:id="@+id/action_facedetect" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_facedetect"/>
+    <item android:id="@+id/action_gftt" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_gftt"/>
+    <item android:id="@+id/action_opflow" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_opflow"/>
+    <item android:id="@+id/action_swapcamera" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_swapcamera"/>
+    <item android:id="@+id/action_toggletitles" android:orderInCategory="100" android:showAsAction="never" android:title="@string/action_toggletitles"/>
+    
+</menu>

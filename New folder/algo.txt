@@ -1,0 +1,12 @@
+algorithms used:
+Background Subtraction:MOG
+Optical Flow.
+
+Video is captured then this video is converted into frames .Implementing Background Subtraction algo we differentiated 
+the moving objects from Background using gaussian mixtures.MOG n MOG2 methods.
+Once we got the separated moving objects we implemented the optical flow TVL1 method to check the flow of the vehicles
+which gives the time a vehicle takes to cover the distance in the frames 
+the threshold is 60 frames.
+Total distance covered in that frame is fixed hereby we got velocities after 2 sec then we have taken the average velocity.
+wich is our final output.
+frame rate is 30frame per sec. 

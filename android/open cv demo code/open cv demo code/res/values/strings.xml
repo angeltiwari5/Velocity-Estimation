@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenCVd2</string>
+    <string name="action_info">Info (web site)</string>
+    <string name="action_rgbpreview">RGB Preview</string>
+    <string name="action_cannyedges">Canny Edges</string>
+    <string name="action_houghcircles">Hough Circles</string>
+    <string name="action_houghlines">Hough Lines</string>
+    <string name="action_colourcontour">Colour Contour</string>
+    <string name="action_colourquad">Colour Quad</string>
+    <string name="action_facedetect">Face Detect</string>
+    <string name="action_gftt">Good Features To Track</string>
+    <string name="action_opflow">Optical Flow</string>
+    <string name="action_swapcamera">Swap Camera</string>
+    <string name="action_toggletitles">Toggle Titles</string>
+    
+</resources>
